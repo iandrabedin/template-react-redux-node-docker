@@ -1,11 +1,11 @@
-import React from "react";
-import { Provider } from "react-redux";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { createBrowserHistory } from "history";
-import { store } from "./store";
-import Homepage from "./pages/homepage/homepage";
+import React from 'react'
+import {Provider} from 'react-redux'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {createBrowserHistory} from 'history'
+import {store} from './store'
+import Homepage from './pages/homepage/homepage'
 
-const history = createBrowserHistory();
+const history = createBrowserHistory()
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
         </Switch>
       </Router>
     </Provider>
-  );
-};
+  )
+}
 
-export default App;
+export default App

@@ -1,12 +1,12 @@
-const express = require("express");
+const express = require('express')
 
-const PORT = process.env.APP_SERVER_PORT;
-const HOST = "0.0.0.0";
+const PORT = process.env.APP_SERVER_PORT
+const HOST = '0.0.0.0'
 
-const app = express();
+const app = express()
 
-app.get("/", (req, res) => {
-  res.send("Hello world");
-});
+app.get('/', (req, res) => {
+  res.send('Hello world')
+})
 
-app.listen(PORT, HOST);
+app.listen(PORT, HOST)

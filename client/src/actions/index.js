@@ -1,1 +1,1 @@
-export { exampleAction } from "./exampleAction";
+export {exampleAction} from './exampleAction'
