@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "dsznajder.es7-react-js-snippets",
+    "kamikillerto.vscode-colorize",
+    "formulahendry.auto-rename-tag",
+    "2gua.rainbow-brackets",
+    "pkief.material-icon-theme",
+    "wayou.vscode-todo-highlight"
+  ]
+}
